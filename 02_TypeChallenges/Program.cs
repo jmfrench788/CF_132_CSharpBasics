@@ -39,9 +39,17 @@ System.Console.WriteLine(u);
 // Next, try to concatenate a number with a string as well and see what happens.
 // Finally, print the results to the console.
 
+string firstName = "Julia ";
+string lastName = "French";
+System.Console.WriteLine(firstName + lastName);
+System.Console.WriteLine(firstName + lastName + 5);
+
 //Gold
 //Create an  variable to hold a year.
 //ask the user to enter a string value that represents a year (whole number)
 //The catch for this challenge is that you want to gather the value for the year as an int .
 //Your task will be to research how to convert a string to an integer in C#.
 // Once you have accomplished this, display the year in the console.
+
+int year;
+System.Console.WriteLine("Please enter the year you were born.");

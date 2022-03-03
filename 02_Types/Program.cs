@@ -52,7 +52,8 @@ PastryType anotherOne = PastryType.Cookie;
 
 //A common struct is DateTime
 
-
+DateTime Today = DateTime.Today;
 //Can also make our own DateTime
 //using "new" we can Allocate space in memory for this date
 
+DateTime birthday = new DateTime(1996,09,10);
